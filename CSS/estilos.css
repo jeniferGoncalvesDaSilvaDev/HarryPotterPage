@@ -1,0 +1,54 @@
+body{
+  font-family: 'Outfit', sans-Serif;
+  background-color: black;
+  background-image: url(../Imagens/hogwarts.png);
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  
+  
+}
+.cabecalho > h1{
+  color:#f1ecff;
+}
+.cabecalho{
+  background-color: red;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap:15px;
+  padding-top: 50px;
+}
+.cabecalho .harry-potter{
+  width: 140px;
+  height: 140px;
+}
+ul > li > div > h2{
+  color:white;
+}
+ul > li > div > h3{
+  color:white;
+}
+ul > li >div > p{
+  color:white;
+}
+.personagens-slider{
+  display:flex;
+  width: 520px;
+  height: 520px;
+  
+}
+.imagem-personagem{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width: 520px;
+  height: 520px;
+  background-color: green;
+  width: 720;
+  height: 720px;
+}
+
